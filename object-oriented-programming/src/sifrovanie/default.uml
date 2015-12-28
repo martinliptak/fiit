@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_NOMeAFF0Ed-GeuQNBHdSEA" name="sifrovanie">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_d-IwoFF1Ed-lJY27__gMXw" name="Vstup" clientDependency="_3n6nMFF1Ed-lJY27__gMXw _XzJtsFF4Ed-lJY27__gMXw _m6KwIFF4Ed-lJY27__gMXw">
+    <ownedOperation xmi:id="_fdoNcFF1Ed-lJY27__gMXw" name="precitaj">
+      <ownedParameter xmi:id="_iOqKoFF1Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_nckZ8FF1Ed-lJY27__gMXw" name="nastavVstup">
+      <ownedParameter xmi:id="_qaHJIFF1Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_q6f5YFF1Ed-lJY27__gMXw" name="mozeCitat">
+      <ownedParameter xmi:id="_rtSBMFF1Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sUw38FF1Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_te5v0FF1Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zPue8FF1Ed-lJY27__gMXw" name="TextovyVstup">
+    <ownedOperation xmi:id="_E6PG8FF4Ed-lJY27__gMXw" name="precitaj">
+      <ownedParameter xmi:id="_PGdDUFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_FejU8FF4Ed-lJY27__gMXw" name="nastavVstup">
+      <ownedParameter xmi:id="_QNmRkFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_GE2f8FF4Ed-lJY27__gMXw" name="mozeCitat">
+      <ownedParameter xmi:id="_RZZ9YFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_3n6nMFF1Ed-lJY27__gMXw" supplier="_zPue8FF1Ed-lJY27__gMXw" client="_d-IwoFF1Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_wspMQFF3Ed-lJY27__gMXw" name="TextoveGUI">
+    <generalization xmi:id="_wspMQVF3Ed-lJY27__gMXw" general="_zPue8FF1Ed-lJY27__gMXw"/>
+    <generalization xmi:id="_7hYEsFF4Ed-lJY27__gMXw" general="_yUKuQFF4Ed-lJY27__gMXw"/>
+    <ownedOperation xmi:id="_Tau78FF4Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_UKryMFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_0zOnIFF3Ed-lJY27__gMXw" name="Vystup" clientDependency="_Es6nMFF5Ed-lJY27__gMXw _IONjsFF5Ed-lJY27__gMXw _KxZ5MFF5Ed-lJY27__gMXw">
+    <ownedOperation xmi:id="_0zOnIVF3Ed-lJY27__gMXw" name="zapis">
+      <ownedParameter xmi:id="_BDH5MFF9Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_0zOnI1F3Ed-lJY27__gMXw" name="nastavVystup">
+      <ownedParameter xmi:id="_vngTsFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_0zOnJ1F3Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_0zOnKFF3Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WNNDkFF4Ed-lJY27__gMXw" name="TextovyVstup">
+    <ownedOperation xmi:id="_WNNDkVF4Ed-lJY27__gMXw" name="precitaj">
+      <ownedParameter xmi:id="_WNNDklF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_WNNDk1F4Ed-lJY27__gMXw" name="nastavVstup">
+      <ownedParameter xmi:id="_WNNDlFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_WNNDlVF4Ed-lJY27__gMXw" name="mozeCitat">
+      <ownedParameter xmi:id="_WNNDllF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_XzJtsFF4Ed-lJY27__gMXw" supplier="_WNNDkFF4Ed-lJY27__gMXw" client="_d-IwoFF1Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZCw7cFF4Ed-lJY27__gMXw" name="TextoveGUI">
+    <generalization xmi:id="_f7BMsFF4Ed-lJY27__gMXw" general="_WNNDkFF4Ed-lJY27__gMXw"/>
+    <generalization xmi:id="_8wMBMFF4Ed-lJY27__gMXw" general="_yUL8YFF4Ed-lJY27__gMXw"/>
+    <ownedOperation xmi:id="_ZCw7clF4Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_ZCw7c1F4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iSDVgFF4Ed-lJY27__gMXw" name="TextovyVstup">
+    <ownedOperation xmi:id="_iSDVgVF4Ed-lJY27__gMXw" name="precitaj">
+      <ownedParameter xmi:id="_iSDVglF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_iSDVg1F4Ed-lJY27__gMXw" name="nastavVstup">
+      <ownedParameter xmi:id="_iSDVhFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_iSDVhVF4Ed-lJY27__gMXw" name="mozeCitat">
+      <ownedParameter xmi:id="_iSDVhlF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_kTNU8FF4Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_lSckYFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_m6KwIFF4Ed-lJY27__gMXw" supplier="_iSDVgFF4Ed-lJY27__gMXw" client="_d-IwoFF1Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yUKuQFF4Ed-lJY27__gMXw" name="TextovyVystup">
+    <ownedOperation xmi:id="_yUKuQVF4Ed-lJY27__gMXw" name="zapis">
+      <ownedParameter xmi:id="_3DEGUFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yUKuQ1F4Ed-lJY27__gMXw" name="nastavVstup">
+      <ownedParameter xmi:id="_yUKuRFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yULVUFF4Ed-lJY27__gMXw" name="TextovyVystup">
+    <ownedOperation xmi:id="_yULVUVF4Ed-lJY27__gMXw" name="zapis">
+      <ownedParameter xmi:id="_4_Np8FF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yULVU1F4Ed-lJY27__gMXw" name="nastavVstup">
+      <ownedParameter xmi:id="_yULVVFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yULVV1F4Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_yULVWFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yUL8YFF4Ed-lJY27__gMXw" name="TextovyVystup">
+    <ownedOperation xmi:id="_yUL8YVF4Ed-lJY27__gMXw" name="zapis">
+      <ownedParameter xmi:id="_4B5tIFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yUL8Y1F4Ed-lJY27__gMXw" name="nastavVstup">
+      <ownedParameter xmi:id="_yUL8ZFF4Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_Es6nMFF5Ed-lJY27__gMXw" supplier="_yUL8YFF4Ed-lJY27__gMXw" client="_0zOnIFF3Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_IONjsFF5Ed-lJY27__gMXw" supplier="_yULVUFF4Ed-lJY27__gMXw" client="_0zOnIFF3Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_KxZ5MFF5Ed-lJY27__gMXw" supplier="_yUKuQFF4Ed-lJY27__gMXw" client="_0zOnIFF3Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_T6tAAFF5Ed-lJY27__gMXw" name="ZapisVynimka"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YkAtcFF5Ed-lJY27__gMXw" memberEnd="_YkCioFF5Ed-lJY27__gMXw _YkEX0FF5Ed-lJY27__gMXw">
+    <ownedEnd xmi:id="_YkCioFF5Ed-lJY27__gMXw" name="src" type="_T6tAAFF5Ed-lJY27__gMXw" association="_YkAtcFF5Ed-lJY27__gMXw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YkDwwVF5Ed-lJY27__gMXw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YkDwwFF5Ed-lJY27__gMXw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_YkEX0FF5Ed-lJY27__gMXw" name="dst" type="_0zOnIFF3Ed-lJY27__gMXw" association="_YkAtcFF5Ed-lJY27__gMXw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YkEX0lF5Ed-lJY27__gMXw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YkEX0VF5Ed-lJY27__gMXw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e7cwoFF5Ed-lJY27__gMXw" name="CitanieVynimka"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gOAksFF5Ed-lJY27__gMXw" memberEnd="_gOAksVF5Ed-lJY27__gMXw _gOBy0FF5Ed-lJY27__gMXw">
+    <ownedEnd xmi:id="_gOAksVF5Ed-lJY27__gMXw" name="src" type="_e7cwoFF5Ed-lJY27__gMXw" association="_gOAksFF5Ed-lJY27__gMXw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gOBLwVF5Ed-lJY27__gMXw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gOBLwFF5Ed-lJY27__gMXw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_gOBy0FF5Ed-lJY27__gMXw" name="dst" type="_d-IwoFF1Ed-lJY27__gMXw" association="_gOAksFF5Ed-lJY27__gMXw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gOBy0lF5Ed-lJY27__gMXw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gOBy0VF5Ed-lJY27__gMXw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_rm03EFF5Ed-lJY27__gMXw" name="Sifrovanie" clientDependency="_hOxosFF6Ed-lJY27__gMXw _kBiEMFF6Ed-lJY27__gMXw">
+    <ownedOperation xmi:id="_rm03EVF5Ed-lJY27__gMXw" name="zasifruj">
+      <ownedParameter xmi:id="_xYPcEFF5Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_rm03E1F5Ed-lJY27__gMXw" name="desifruj">
+      <ownedParameter xmi:id="_yX6wYFF5Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_rm03F1F5Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_rm03GFF5Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_46VUgFF5Ed-lJY27__gMXw" name="ParametreVynimka"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7wtEsFF5Ed-lJY27__gMXw" memberEnd="_7wtEsVF5Ed-lJY27__gMXw _7wuS0FF5Ed-lJY27__gMXw">
+    <ownedEnd xmi:id="_7wtEsVF5Ed-lJY27__gMXw" name="src" type="_46VUgFF5Ed-lJY27__gMXw" association="_7wtEsFF5Ed-lJY27__gMXw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7wtrwVF5Ed-lJY27__gMXw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7wtrwFF5Ed-lJY27__gMXw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_7wuS0FF5Ed-lJY27__gMXw" name="dst" type="_rm03EFF5Ed-lJY27__gMXw" association="_7wtEsFF5Ed-lJY27__gMXw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7wu54FF5Ed-lJY27__gMXw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7wuS0VF5Ed-lJY27__gMXw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_U7stgFF6Ed-lJY27__gMXw" name="PosuvneSifrovanie">
+    <ownedOperation xmi:id="_ZV5n8FF6Ed-lJY27__gMXw" name="zasifruj">
+      <ownedParameter xmi:id="_Z45AQFF6Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_a5s9AFF6Ed-lJY27__gMXw" name="desifruj">
+      <ownedParameter xmi:id="_b3lhkFF6Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cM7fcFF6Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_c43_cFF6Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_hOxosFF6Ed-lJY27__gMXw" supplier="_U7stgFF6Ed-lJY27__gMXw" client="_rm03EFF5Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iQWacFF6Ed-lJY27__gMXw" name="XORSifrovanie">
+    <ownedOperation xmi:id="_iQWacVF6Ed-lJY27__gMXw" name="zasifruj">
+      <ownedParameter xmi:id="_iQWaclF6Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_iQWac1F6Ed-lJY27__gMXw" name="desifruj">
+      <ownedParameter xmi:id="_iQWadFF6Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_iQWadVF6Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_iQWadlF6Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_kBiEMFF6Ed-lJY27__gMXw" supplier="_iQWacFF6Ed-lJY27__gMXw" client="_rm03EFF5Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_agq8gFF7Ed-lJY27__gMXw" name="SifrovanieGUI" clientDependency="_jiBBMFF7Ed-lJY27__gMXw">
+    <ownedOperation xmi:id="_3GWjgFF7Ed-lJY27__gMXw" name="static main">
+      <ownedParameter xmi:id="_4btz8FF7Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_5t5NgFF7Ed-lJY27__gMXw" name="actionPerformed">
+      <ownedParameter xmi:id="_FV8OsFF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fgzOgFF7Ed-lJY27__gMXw" name="SifrovanieWorker" clientDependency="_qqPysFF8Ed-lJY27__gMXw _rdNgsFF8Ed-lJY27__gMXw _sIUTMFF8Ed-lJY27__gMXw">
+    <ownedOperation xmi:id="_HKLzgFF8Ed-lJY27__gMXw" name="run">
+      <ownedParameter xmi:id="_Hf2hgFF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_jiBBMFF7Ed-lJY27__gMXw" supplier="_fgzOgFF7Ed-lJY27__gMXw" client="_agq8gFF7Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_yxQykFF7Ed-lJY27__gMXw" name="Sifrovanie">
+    <ownedOperation xmi:id="_yxQykVF7Ed-lJY27__gMXw" name="zasifruj">
+      <ownedParameter xmi:id="_yxQyklF7Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yxQyk1F7Ed-lJY27__gMXw" name="desifruj">
+      <ownedParameter xmi:id="_yxQylFF7Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_yxQylVF7Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_yxQyllF7Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_eziqcFF8Ed-lJY27__gMXw" name="Vstup">
+    <ownedOperation xmi:id="_eziqcVF8Ed-lJY27__gMXw" name="precitaj">
+      <ownedParameter xmi:id="_eziqclF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_eziqc1F8Ed-lJY27__gMXw" name="nastavVstup">
+      <ownedParameter xmi:id="_eziqdFF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_eziqdVF8Ed-lJY27__gMXw" name="mozeCitat">
+      <ownedParameter xmi:id="_eziqdlF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_eziqd1F8Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_eziqeFF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fKEUEFF8Ed-lJY27__gMXw" name="Vystup">
+    <ownedOperation xmi:id="_fKEUEVF8Ed-lJY27__gMXw" name="zapis">
+      <ownedParameter xmi:id="_6K8gcFF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fKEUE1F8Ed-lJY27__gMXw" name="nastavVystup">
+      <ownedParameter xmi:id="_fKEUFFF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_fKEUFVF8Ed-lJY27__gMXw" name="vytvorGUI">
+      <ownedParameter xmi:id="_fKEUFlF8Ed-lJY27__gMXw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qqPysFF8Ed-lJY27__gMXw" supplier="_eziqcFF8Ed-lJY27__gMXw" client="_fgzOgFF7Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_rdNgsFF8Ed-lJY27__gMXw" supplier="_fKEUEFF8Ed-lJY27__gMXw" client="_fgzOgFF7Ed-lJY27__gMXw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sIUTMFF8Ed-lJY27__gMXw" supplier="_yxQykFF7Ed-lJY27__gMXw" client="_fgzOgFF7Ed-lJY27__gMXw"/>
+</uml:Package>
